@@ -9,10 +9,14 @@ body{
     box-sizing: border-box;
 }
 .content nav{
-    display: inline;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
+.list1{
+    width: 80%;
+    justify-content: left;
+} 
 
 .list1 ul li{
     list-style: none;
@@ -36,8 +40,14 @@ body{
     margin-right: 60px;
     margin-left: 70px;
 }
+.list2{
+    width: 20%;
+    z-index: 9;
+    justify-content: right; 
+}
 .list2 ul li{
     list-style: none;
+    display: flex;
     float: left;
     margin-left: 20px;
     text-align: center;
@@ -47,18 +57,7 @@ body{
     text-decoration: none;
     color: black;
 }
-.list2 ul li:first-child{
-    margin-left: 390px;
-}
-.list2 ul li input{
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 15px;
-    width: 100px;
-    border: none;
-}
+
 .content2{
     display: inline-flex;
     align-items: center;
