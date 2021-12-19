@@ -31,7 +31,6 @@ form{
 
 form p:first-child {
     font-size: 3em;
-    
 }
 form a{
     margin-right: 70px;
@@ -50,16 +49,42 @@ form a{
 .image img{
     width: 30%;
 }
-.signup label{
-    margin-top: 0px;
-    display: inline;
+.signup{
+    padding: 30px;
+    display: inline-flex;
 }
-.signup input{
-    margin-left: 10px;
+.signup p:first-child{
+    font-size: 15px;
+}
+.signup a{
+    margin-left: 50px;
+    text-decoration: none;
     border-radius: 5px;
     padding: 5px;
-    width: 100px;
     background-image: linear-gradient( #FB7B30 0%, #A831A5 100%);
-    color: white;
-    
+    color: white; 
+}
+.invit a{
+    margin-left: 60px;
+    background-image: linear-gradient( #FB7B30 0%, #A831A5 100%);;
+    color: black;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+@media only screen and  (max-width: 700px) {
+form{
+    width: 100%;
+    height: 100vh;
+}
+.signup a{
+    justify-content: center;
+    display: flex; 
+      
+}
+.image img{
+    justify-items: center;
+}
+
 }
